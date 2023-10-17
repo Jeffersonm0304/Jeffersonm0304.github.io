@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+a{
+padding: 10px;
+	color:gold;
+		}
+	
+
+.about-section{  
+		padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+		
+	
+body {
+    background-color: darkred;
+	color:gold;
+	  margin: 0;
+}

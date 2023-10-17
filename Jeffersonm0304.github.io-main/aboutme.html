@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+<style>
+	body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+		background-color:darkred;
+	color:gold;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 10);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: black;
+	
+}
+
+.button {
+  border: thick;
+	border-color:white;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+		a{
+			padding: 10px;
+		}
+	
+	
+	
+	</style>
+<body>
+<div class="about-section">	<a href="index.html"> Home</a> <a href="visualdesign.html">Visual Design</a> <a href="aboutme.html">About Me</a> 
+
+	
+		
+  <h1>About Me Page</h1>
+  
+  <p>Just a High Schooler trying to make it</p>
+</div>
+
+<h2 style="text-align:center"> Favorite Artists</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="artifacts/carti.png" alt="carti" style="width:100%">
+      <div class="container">
+        <h2>Playboi Carti</h2>
+        <p class="title">Best Album: Self Titled</p>
+       
+       
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="artifacts/drake.png" alt="Drake" style="width:85%">
+      <div class="container">
+        <h2>Drake</h2>
+        <p class="title">Best Album: For All The Dogs</p>
+        
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="artifacts/mac.jpeg" alt="mac" style="width:57%">
+      <div class="container">
+        <h2>Mac Demarco</h2>
+        <p class="title">Best Album: This Old Dog</p>
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+	<h2 style="text-align:center">Top Tier Characters</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="artifacts/jake.jpeg" alt="jake" style="width:100%">
+      <div class="container">
+        <h2>Jake</h2>
+        <p class="title">Adventure Time</p>
+       
+       
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="artifacts/yuichi.png" alt="yuichi" style="width:100%">
+      <div class="container">
+        <h2>Yuichi</h2>
+        <p class="title">Tomodachi Game</p>
+        
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="artifacts/huey.png" alt="huey" style="width:87%">
+      <div class="container">
+        <h2>Huey</h2>
+        <p class="title">Boondocks</p>
+        
+
+      </div>
+    </div>
+  </div>
+</div> 
+</body>
+</html>
