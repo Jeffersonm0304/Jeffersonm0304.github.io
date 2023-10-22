@@ -1,21 +1,51 @@
 @charset "UTF-8";
-
-a{
+@import url("wcp.html.css");
+@import url("wcplab1.html.css");
+@import url("digitaldesign.html.css");
+@import url("visualdesign.html.css");
+@import url("aboutme.html.css");		
+		h1{
+			text-align: center;
+		}
+		a{
 padding: 10px;
 	color:gold;
 		}
 	
 
-.about-section{  
-		padding: 5px;
-  text-align: center;
-  background-color: black;
-  color: white;
+.about-section{
+    padding: 5px;
+    text-align: center;
+    background-color: #4C4D4F;
+    color: white;
+    align-items: center;
 }
 		
 	
 body {
-    background-color: darkred;
-	color:gold;
-	  margin: 0;
+  
+    color: gold;
+    margin: 0;
+    background-image:repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(0,17,78,1.00) 0%,rgba(44,62,129,1.00) 100%);
 }
+		button {
+			
+  background-color: white;
+  border: none;
+  color: cadetblue;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 5px;
+			font-weight: bolder;
+	
+		}
+		.domiimg{
+			
+			display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+		}
