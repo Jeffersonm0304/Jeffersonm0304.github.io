@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<!-- TemplateBeginEditable name="doctitle" -->
+
+<!-- TemplateBeginEditable name="Doctile" -->
 <title>Untitled Document</title>
 <!-- TemplateEndEditable -->
 <style type="text/css">
@@ -31,8 +32,7 @@ h1 {
 	text-align:center;
 }
 </style>
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
+
 </head>
 
 <body>
@@ -41,26 +41,27 @@ h1 {
 	<h1>Welcome to the Company</h1>
 	
 	</header>
-	<!-- TemplateBeginEditable name="Navigation" -->Navigation<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="Navigation" -->Navigation
 <nav>
 		<a href="">Home</a>
 		<a href="">Services</a>
 		<a href="">About</a>
 	</nav>
-	<!-- TemplateBeginEditable name="Main" -->Main<!-- TemplateEndEditable -->
+	<!-- TemplateEndEditable -->
 	
-	<main>
+	<main><!-- TemplateBeginEditable name="main" -->main
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar aliquam diam, vitae dapibus leo fermentum ut. Sed nec sapien nunc. Donec laoreet nulla vel nibh finibus lobortis. Proin sed risus id tortor convallis bibendum. Integer nec sollicitudin nibh, eget vestibulum ipsum. Pellentesque volutpat eu massa sit amet elementum. Praesent ac mollis tellus, ac placerat enim. Cras commodo finibus nunc, at cursus lacus varius vel. Mauris ornare, tortor non vulputate facilisis, lacus nisl venenatis lectus, sed rutrum turpis nisi ac nulla. Nam metus risus, interdum sit amet lorem non, egestas hendrerit dui. Vivamus euismod imperdiet lorem. Maecenas metus velit, finibus vitae dolor sed, porttitor viverra eros. Cras porttitor efficitur luctus.</p>
 	
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar aliquam diam, vitae dapibus leo fermentum ut. Sed nec sapien nunc. Donec laoreet nulla vel nibh finibus lobortis. Proin sed risus id tortor convallis bibendum. Integer nec sollicitudin nibh, eget vestibulum ipsum. Pellentesque volutpat eu massa sit amet elementum. Praesent ac mollis tellus, ac placerat enim. Cras commodo finibus nunc, at cursus lacus varius vel. Mauris ornare, tortor non vulputate facilisis, lacus nisl venenatis lectus, sed rutrum turpis nisi ac nulla. Nam metus risus, interdum sit amet lorem non, egestas hendrerit dui. Vivamus euismod imperdiet lorem. Maecenas metus velit, finibus vitae dolor sed, porttitor viverra eros. Cras porttitor efficitur luctus.</p>
 		
 	</main>
-	<!-- TemplateBeginEditable name="Footer" -->Footer<!-- TemplateEndEditable -->
+<!-- TemplateEndEditable -->
 	
 	
-	<footer> 
+	<footer><!-- TemplateBeginEditable name="footer" -->footer
 	  <p> ©TheXXXXXXXCompany </p> 
 		<p>Site Last Updated: Fall 2024</p>	
 	</footer>
+	<!-- TemplateEndEditable --> 
 </body>
 </html>
