@@ -1,9 +1,9 @@
 @charset "UTF-8";
-@import url("wcp.html.css");
-@import url("wcplab1.html.css");
-@import url("digitaldesign.html.css");
-@import url("visualdesign.html.css");
-@import url("aboutme.html.css");		
+@import url("../wcp.html.css");
+@import url("../wcplab1.html.css");
+@import url("../digitaldesign.html.css");
+@import url("../visualdesign.html.css");
+@import url("../aboutme.html.css");		
 		h1{
 			text-align: center;
 		}
